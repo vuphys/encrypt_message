@@ -2,9 +2,11 @@
 
 Encryption/Decryption Tool
 Overview
+
 The Encryption/Decryption Tool is a simple and user-friendly application built using Python and Tkinter. This tool allows users to encrypt and decrypt short messages using symmetric encryption, specifically with the Fernet symmetric encryption method provided by the cryptography library. The application provides functionality for generating secure keys, encrypting messages, and decrypting them back to their original form.
 
 Features
+
 Generate Encryption Key: Easily generate a new encryption key (in Base64 format) that can be used to encrypt and decrypt messages.
 Encrypt Messages: Input a message along with a valid key to encrypt it securely.
 Decrypt Messages: Input a previously encrypted message along with the key to decode it back to its original text.
@@ -18,7 +20,9 @@ You can install the cryptography library using pip:
 
  
 pip install cryptography
+
 Usage
+
 Launch the Application: Run the script to open the Encryption/Decryption Tool.
 
 Generate a Key:
